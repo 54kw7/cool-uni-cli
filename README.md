@@ -5,6 +5,10 @@
 cool-uni 的 cli 版本,方便非Hbuilder开发者
 只是针对cli模式进行了调整,代码为20241202前最新,7.x版本。
 
+[gitee](https://gitee.com/dont_bite_my_apple/cool-uni-cli.git)
+&
+[github](https://github.com/54kw7/cool-uni-cli.git)
+
 ## 简介
 
 7.0 携带 vue3、vite、ts、pinia 等众多新特性细节曝光！！[文档地址](https://cool-js.com/uni/introduce.html)
