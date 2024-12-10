@@ -8,7 +8,7 @@ onLaunch(() => {
 	const { dict, user } = useStore();
 
 	// 获取字典
-	// dict.refresh();
+	dict.refresh();
 
 	if (user.token) {
 		// 获取登录用户信息
