@@ -33,5 +33,14 @@ export default defineConfig(() => {
 				"/$": resolve("./src/uni_modules/"),
 			},
 		},
+		css: {
+			preprocessorOptions: {
+				scss: {
+					api: "modern-compiler", // or "modern"
+					silenceDeprecations: ["legacy-js-api"],
+					// prependData: `@use 'src/uni_modules/cool-ui/theme.scss' as *;`,
+				},
+			},
+		},
 	};
 });
